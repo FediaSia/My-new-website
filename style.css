@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f8f8
+}
+.menu li {
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+}
+.menu li a {
+    color: green
+}
+.cakeHead strong {
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #eaeaea;
+}
+.cakeHeado  {
+    font-style: italic;
+    color: #707070;
+    font-size: 14px;
+    line-height: 16px;
+}
+.cakeHeado2  {
+    color: #474747;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.cakeHeado3  {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: inherit;
+}
+.resizedTextbox{
+    width: 1000px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #b49678;
+    margin: 0 0 4px;
+}
+.kontact{
+    font-size: 20px;
+    font-weight: 300;
+    color: #b49678;
+    margin: 0 0 4px;
+
+}
