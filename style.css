@@ -1,20 +1,21 @@
 body {
     background-color: #f8f8f8
 }
-.silka:hover {
-    color:brown
-}
 .menu {
     width: auto; /* Ширина меню */
-    padding: 10px; /* Отступы от рамки до пунктов меню */
+    padding: 20px; /* Отступы от рамки до пунктов меню */
+    padding-left: 130px;
     border: 1px solid green; /* Рамка вокруг меню */
     font-style: italic;
     font-size: 20px;
     list-style-type: none;
     color: green
 }
-.menu a {
+.menu li a {
     color: green;
+}
+.menu li a:hover {
+    color:brown
 }
 .cakeHead strong {
     color: black;
@@ -41,19 +42,31 @@ body {
     line-height: 24px;
     font-style: inherit;
 }
-.resizedTextbox{
+.resizedTextbox {
     width: 1000px;
     height: 200px;
     font-size: 20px;
     font-weight: 300;
     color: #b49678;
     margin: 0 0 4px;
+    text-transform: capitalize;
 }
-.kontact{
+.kontactN {
     font-size: 20px;
     font-weight: 300;
     color: #b49678;
     margin: 0 0 4px;
+}
+.kontactEM {
+    font-size: 20px;
+    font-weight: 300;
+    color: #b49678;
+    margin: 0 0 4px;
+}
+input.kontactEM:focus {
+    background-color: khaki;
+    color: #140703;
+
 }
 
 .headblock {
@@ -64,9 +77,21 @@ body {
     height: auto;
 }
 .foot {
-    background: ;
-    border: 1px solid green;
     padding: 10px;
     width: auto;
     height: auto;
 }
+.logo {
+    text-align: left;
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+table {
+    border: 1px solid #000;
+    }
+table td {
+    border: 1px solid #000;
