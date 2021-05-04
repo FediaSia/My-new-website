@@ -90,8 +90,11 @@ input.kontactEM:focus {
     padding-left: 10px;
 }
 
-table {
-    border: 1px solid #000;
+.table {
+    border-collapse: collapse;
+    border: 1px solid black ;
     }
-table td {
-    border: 1px solid #000;
+.table td {
+    border-collapse: collapse;
+    border: 1px solid black
+}
