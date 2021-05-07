@@ -2,20 +2,30 @@ body {
     background-color: #f8f8f8
 }
 .menu {
-    width: auto; /* Ширина меню */
-    padding: 20px; /* Отступы от рамки до пунктов меню */
-    padding-left: 130px;
-    border: 1px solid green; /* Рамка вокруг меню */
+	display: flex;
+	justify-content: flex-end;
+}
+.menu a {
     font-style: italic;
-    font-size: 20px;
-    list-style-type: none;
-    color: green
+	font-size: 18px;
+	color: #f8f8f8;
+	text-decoration: none;
+	background-color: #e06b5a;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 30px;
 }
-.menu li a {
-    color: green;
+.menu li {
+	color: green;
+	display: block;
+	width: 32%;
+	border: 1px solid #f8f8f8;
+	margin-top: 10px;
 }
-.menu li a:hover {
-    color:brown
+.menu a:hover {
+	color: brown;
 }
 .cakeHead strong {
     color: black;
@@ -80,13 +90,16 @@ input.kontactEM:focus {
     padding: 10px;
     width: auto;
     height: auto;
+	background: #98602d;
+}
+.prava {
+	margin: 5px 10px;
+	text-align: right;
 }
 .logo {
-    text-align: left;
     float: left;
-    width: 100px;
-    height: 100px;
-    padding-top: 3px;
+    width: 120px;
+    height: 120px;
     padding-left: 10px;
 }
 
@@ -97,4 +110,23 @@ input.kontactEM:focus {
 .table td {
     border-collapse: collapse;
     border: 1px solid black
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+    height: 120px;
+
+}
+.smimg{
+    width: 220px;
+    height: 200px;
+}
+.sprava{
+    font-size: 14px;
+	line-height: 16px;
+	color: #707070;
+	font-style: italic;
+	text-align: center;
 }
